@@ -1,0 +1,24 @@
+a {
+    display:inline;
+    width: 200px;
+    text-align:center;
+    margin:10px;
+    padding:10 px;
+    background-color:aliceblue;
+    text-decoration: none;
+    color:#333;
+}
+body {
+    background-color: #399a9f; /* Светлый нейтральный цвет фона */
+    color: #333;               /* Цвет текста для контраста */
+    font-family: Arial, sans-serif; /* Шрифт для всего текста */
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-family: 'Georgia', serif; /* Используем другой шрифт для заголовков */
+    color: #ffd900;                 /* Яркий цвет текста заголовков */
+    border-bottom: 2px solid #ffd900; /* Нижняя граница для разделения */
+    padding-bottom: 10px;          /* Отступ снизу для границы */
+    margin-bottom: 20px;           /* Отступ снизу от следующего элемента */
+}

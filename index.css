@@ -1,0 +1,33 @@
+h1{
+    background-color: rgb(15, 15, 91);
+    text-align: center;
+    color:red;
+}
+p{
+    text-align:center; /* Центрирует текст по горизонтали */
+    font-size: 1.8em;   /* Увеличивает размер шрифта */
+    margin-top: 20px;   /* Добавляет отступ сверху */
+    line-height: 2.6;   /* Устанавливает высоту строки для лучшей читаемости */
+}
+section{
+    margin: 0 15px;
+    text-decoration: none;   /* Убираем подчеркивание у ссылок */
+    color: white;            /* Цвет текста ссылок */
+    padding: 10px 15px;      /* Внутренние отступы для ссылок */
+    display: block;          /* Делаем ссылки блочными элементами */
+    background-color: #444;  /* Фон для пунктов меню */
+    border-radius: 5px;      /* Скругляем углы */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Плавный переход фона и цвета */
+        background-color: #555;  /* Цвет фона при наведении */
+        color: #f0f0f0;          /* Цвет текста при наведении */
+     border-bottom: 2px solid transparent; /* Начальное прозрачное подчеркивание */
+     
+}
+img{
+    width:150px;
+    display:block;
+    margin:auto;
+    border-radius:50%;
+    object-fit: cover;
+    height: 150px;
+    }

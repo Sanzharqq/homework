@@ -1,0 +1,9 @@
+/* Стили для ссылок */
+.llink{
+    color:aqua;
+    text-decoration: none;
+    font-weight: bold;
+}
+.llink:hover{
+    text-decoration: underline;
+}
